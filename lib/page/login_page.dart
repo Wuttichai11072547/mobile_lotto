@@ -234,6 +234,38 @@ class _Login_PageState extends State<Login_Page> {
                           ),
                         ),
                       ),
+                      Padding(
+                        padding: const EdgeInsets.only(top: 15),
+                        child: TextButton(
+                          onPressed: () {},
+                          child: Text(
+                            'ลืมรหัสผ่าน ?',
+                            style: TextStyle(
+                              fontSize: 14,
+                              color: Colors.amberAccent,
+                            ),
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 300,
+                        height: 50,
+                        child: ElevatedButton(
+                          onPressed: () {},
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Colors.white.withOpacity(0),
+                            foregroundColor: Colors.white,
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(12),
+                              side: BorderSide(color: gold, width: 1.5),
+                            ),
+                          ),
+                          child: const Text(
+                            'เข้าสู่ระบบ',
+                            style: TextStyle(fontSize: 24),
+                          ),
+                        ),
+                      ),
                     ],
                   ),
                 ),
